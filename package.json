@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "regression": "npx playwright test tests/firstexample.spec.js"
+    "regression": "npx playwright test tests/firstexample.spec.js --project=chromium",
+    "sanity": "npx playwright test --grep @web --project=chromium"
   },
   "keywords": [],
   "author": "",

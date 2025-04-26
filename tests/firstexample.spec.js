@@ -5,7 +5,7 @@ const dataset = JSON.parse(JSON.stringify(require('./utils/testData.json')));
 //     video: 'on',
 //   });
 
-test.only('check login',async({browser}) =>{
+test.only('@web check login',async({browser}) =>{
     
     const context = await browser.newContext();
     const page = await context.newPage();
