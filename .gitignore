@@ -3,3 +3,11 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+# .gitignore
+node_modules/
+test-results/
+playwright-report/
+*.log
+*.mp4
+*.webm
+*.zip
